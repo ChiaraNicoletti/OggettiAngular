@@ -1,0 +1,55 @@
+<h1>catalogo animali</h1>
+<div *ngFor="let Animale of lista">
+<p>
+  {{Animale.info()}}
+</p>
+</div>
+<h1>catalogo Utenti</h1>
+<div *ngFor="let Persona of Utente">
+<p>
+  {{Persona.info()}}
+</p>
+</div>
+
+<h1>catalogo Auto</h1>
+<div *ngFor="let auto of Auto">
+<p>
+  {{auto.info()}}
+</p>
+</div>
+
+<h1>catalogo Apparecchio</h1>
+<div *ngFor="let app of Apparecchio">
+<p>
+  {{app.info()}}
+</p>
+</div>
+
+<h1>catalogo Impiegati</h1>
+<div *ngFor="let impiegato of Impiegati">
+<p>
+  {{impiegato.info()}}
+</p>
+</div>
+
+<h1>Elenco Aziende con impiegati</h1>
+<div *ngFor="let azienda of Aziende">
+<p>
+  {{azienda.infoAzienda()}}
+</p>
+</div>
+
+
+<h1>Elenco Giocatori</h1>
+<div *ngFor="let giocatore of Giocatori">
+<p>
+  {{giocatore.infoGiocatori()}}
+</p>
+</div>
+
+<h1>Elenco Squadre con giocatori</h1>
+<div *ngFor="let squadre of Squadre">
+<p>
+  {{squadre.info()}}
+</p>
+</div>
